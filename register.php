@@ -9,15 +9,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register Page</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
     <div class="header">
         <h2>Register</h2>
     </div>
-
     <form action="register_db.php" method="post">
         <?php include('errors.php'); ?>
         <?php if (isset($_SESSION['error'])) : ?>
@@ -51,6 +48,5 @@
         </div>
         <p>Already a member? <a href="login.php">Sign in</a></p>
     </form>
-
 </body>
 </html>
