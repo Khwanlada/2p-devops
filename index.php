@@ -24,7 +24,8 @@
 <body>
     
     <div class="homeheader">
-        <h4>Kitchen Page</h4>
+        <br>
+        <h5>Kitchen Page</h5>
     </div>
 
     <div class="homecontent">
